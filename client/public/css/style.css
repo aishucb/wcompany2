@@ -37,7 +37,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family: 'Noto Serif', sans-serif;;
+     
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -70,9 +70,15 @@ h6 {
      margin: 0
 }
 
-h1 {
-     font-size: 48px
-}
+h3 {
+     font-family: 'Poppins', sans-serif;
+     color: white;
+     margin: 20px 0;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+   }
+   
 
 h2 {
      font-size: 22px
@@ -172,7 +178,7 @@ nav.main-menu {
     position: inherit;
     display: inline-block;
     vertical-align: middle;
-    padding-right: 30px;
+    padding-right: 0px;
     font-size: 16pt;
     color: #060608;
 }
@@ -230,6 +236,7 @@ nav.main-menu {
 }
 
 .banner_taital{
+     font: 9px/1 'Helvetica Neue', serif;
      width: 100%;
      float: left;
      color: #ffffff;
@@ -279,7 +286,7 @@ nav.main-menu {
      width: 100%;
      float: left;
      color: #b2b1b1;
-     border: 1px solid #000000;
+     border: 1px solid #3bbfd2;
      padding: 10px 15px;
      font-size: 14pt;
 }
@@ -288,7 +295,7 @@ nav.main-menu {
      width: 90%;
      float: left;
      color: #ffffff;
-     background-color: #000000;
+     background-color: #3bbfd2;
      font-size: 14pt;
      border: 0px;
      height: 55px;
@@ -447,7 +454,7 @@ nav.main-menu {
 .about_section {
     width: 100%;
     float: left;
-    background-image: url(../images/about-banner.png);
+    background-color: linear-gradient(to bottom, #3498db, #9b59b6);
     height: auto;
     padding: 110px 0px;
     background-size: 100%;
@@ -693,3 +700,20 @@ nav.main-menu {
 
 
 
+.rounded-square-button {
+     display: inline-block;
+     padding: 5px 10px;
+     border: 2px solid white;
+     border-radius: 10px; /* Adjust border-radius to make the edges rounded */
+     background-color: transparent;
+     color: white;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background-color 0.3s, color 0.3s;
+   }
+   
+   .rounded-square-button:hover {
+     background-color: white;
+     color: #333;
+   }
+   
